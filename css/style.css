@@ -51,14 +51,16 @@ div {
 
 .introduction {
 	margin-top: 15px;
-	border: white 2px solid;
+
 	border-radius: 15px;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 
 }
 
 .introduction p {
 	line-height: 2;
+
+
 
 
 }
@@ -70,18 +72,21 @@ div {
 	border-bottom-width: 2px;
 	border-left-width: 5px;
 	border-top: 0;
+	border-right: 0;
 }
 
 .blue {
 	background-color: blue;
 	text-align: left;
 	margin-right: 50px;
-	border-right: 5px;
-	border-top: 2px;
+	border-left: 0;
+	border-bottom: 0;
+	border-top-width: 2px;
+	border-right-width: 5px;
 }
 
 .blue p,
-h2 {
+.blue h2 {
 	color: #C4C4C4;
 }
 
@@ -89,18 +94,26 @@ h2 {
 	background-color: yellow;
 	text-align: right;
 	margin-left: 50px;
-	border-left: 5px;
-	border-bottom: 2px;
+	border-right: 0;
+	border-top: 0;
+	border-bottom-width: 2px;
+	border-left-width: 5px;
 
+}
+
+.yellow p {
+	color: #707070;
 }
 
 .green {
 
-	background-color: #00EB00;
+	background-color: #008500;
 	text-align: left;
 	margin-right: 50px;
-	border-right: 5px;
-	border-top: 2px;
+	border-left: 0;
+	border-bottom: 0;
+	border-top-width: 2px;
+	border-right-width: 5px;
 
 
 }
